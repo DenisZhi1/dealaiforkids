@@ -34,7 +34,7 @@ export const RequirementsSection = () => {
   return (
     <section className="py-20 px-4 bg-gradient-card">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 gap-16 place-items-center lg:grid-cols-2 lg:place-items-stretch">
           {/* Requirements */}
           <div>
             <div className="text-center lg:text-left mb-12">
@@ -48,7 +48,7 @@ export const RequirementsSection = () => {
 
             <div className="space-y-6 mx-auto w-full max-w-[560px] lg:max-w-none">
               {requirements.map((req, index) => (
-                <Card key={index} className="bg-card/50 border-border/30 hover:border-primary/30 transition-smooth">
+                <Card key={index} className="w-full bg-card/50 border-border/30 hover:border-PRIMARY/30 transition-smooth hover:shadow-card">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <div className="text-3xl">{req.icon}</div>
@@ -74,7 +74,7 @@ export const RequirementsSection = () => {
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-6 w-full max-w-[560px] md:max-w-none">
               {schedule.map((item, index) => (
                 <Card key={index} className={`w-full bg-card/50 border-border/30 hover:border-${item.color}/30 transition-smooth hover:shadow-card`}>
                   <CardHeader className="pb-3">
