@@ -33,7 +33,7 @@ const schedule = [
 export const RequirementsSection = () => {
   return (
     <section className="py-20 px-4 bg-gradient-card">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-1 gap-16 place-items-center lg:grid-cols-2 lg:place-items-stretch">
           {/* Requirements */}
           <div>
@@ -46,7 +46,7 @@ export const RequirementsSection = () => {
               </p>
             </div>
 
-            <div className="space-y-6 mx-auto w-full max-w-[560px] lg:max-w-none">
+            <div className="space-y-6 w-full max-w-[560px] md:max-w-none mx-auto">
               {requirements.map((req, index) => (
                 <Card key={index} className="w-full bg-card/50 border-border/30 hover:border-PRIMARY/30 transition-smooth hover:shadow-card">
                   <CardContent className="p-6">
