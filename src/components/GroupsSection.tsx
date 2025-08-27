@@ -13,8 +13,8 @@ export const GroupsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Card className="bg-gradient-card border-border/50 hover:border-primary/30 transition-smooth hover:shadow-card group">
+        <div className="grid grid-cols-1 gap-8 place-items-center md:grid-cols-2 md:place-items-stretch">
+          <Card className="w-full max-w-[560px] md:max-w-none bg-gradient-card border-border/50 hover:border-primary/30 transition-smooth hover:shadow-card group">
             <CardHeader className="text-center pb-4">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:shadow-glow transition-smooth">
                 <span className="text-2xl font-bold text-primary-foreground">1</span>
@@ -29,7 +29,7 @@ export const GroupsSection = () => {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-card border-border/50 hover:border-accent/30 transition-smooth hover:shadow-card group">
+          <Card className="w-full max-w-[560px] md:max-w-none bg-gradient-card border-border/50 hover:border-accent/30 transition-smooth hover:shadow-card group">
             <CardHeader className="text-center pb-4">
               <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:shadow-accent transition-smooth">
                 <span className="text-2xl font-bold text-accent-foreground">2</span>
