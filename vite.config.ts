@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/ai-craft-for-kids/' : '/',
+  base: mode === 'production' ? '/dealaiforkids/' : '/',
   server: {
     host: "::",
     port: 8080,
